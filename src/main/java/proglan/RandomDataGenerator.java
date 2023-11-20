@@ -46,7 +46,7 @@ public class RandomDataGenerator {
         System.out.print("Masukkan batas atas angka acak: ");
         int upperBound = scanner.nextInt();
 
-        int randomNumber = random.nextInt(upperBound - lowerBound + 1);
+        int randomNumber = random.nextInt(upperBound - lowerBound + 1)+lowerBound;
 
         System.out.println("Angka acak: " + randomNumber);
     }
